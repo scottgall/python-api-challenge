@@ -17,7 +17,7 @@ This project contains two sections with Python scripts in Jupyter Notebooks, [We
 
 
 ## WeatherPy ☁️
-This section contains a `Jupyter Notebook` that uses randomly generated latitudes and longitudes to  get a list of over 600 cities from around the world using the [Citipy Library](https://github.com/wingchen/citipy). The script then makes calls to the [OpenWeatherMap API](https://openweathermap.org/api) the get the current weather for each city, storying the data in a [Pandas](https://pandas.pydata.org/) [DataFrame](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html) and exporting the data to [city_weather.csv](WeatherPy/output/city_weather.csv).
+This section uses randomly generated latitudes and longitudes to  get a list of over 600 cities from around the world using the [Citipy Library](https://github.com/wingchen/citipy). The script then makes calls to the [OpenWeatherMap API](https://openweathermap.org/api) the get the current weather for each city, storying the data in a [Pandas](https://pandas.pydata.org/) [DataFrame](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html) and exporting the data to [city_weather.csv](WeatherPy/output/city_weather.csv).
 
 Once the data is gathered, a series of scatter plots are generated to showcase relationships between latitude and various weather attributes:
 * [Temperature (F) vs. Latitude](WeatherPy/output/fig1.png)
